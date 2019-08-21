@@ -10,18 +10,9 @@ class Contact extends React.Component {
     }
 
     handleSubmit = async (e) => {
-        e.preventDefault();
 
-        try {
-            await fetch('http://localhost:5000/api/mail/', {
-                mode: "no-cors",
-                method: 'POST',
-                body: JSON.stringify(this.state)
-            })
-            this.setState({ email: '', message: '' })
-        } catch (e) {
-            throw e;
-        }
+        this.setState({ email: '', message: '' })
+        e.preventDefault();
     }
     handleChange = (e) => {
         e.persist()
@@ -39,11 +30,11 @@ class Contact extends React.Component {
                         <form onSubmit={this.handleSubmit}>
                             <div className="form-group">
                                 <label>Your Email</label>
-                                <input className="input" type="email" name="email" onChange={this.handleChange} value={this.state.email} />
+                                <input className="input" type="email" name="email" onChange={this.handleChange} value={this.state.email} placeholder="Your email .." />
                             </div>
                             <div className="form-group">
                                 <label>Message</label>
-                                <textarea className="textarea" type="text" name="message" onChange={this.handleChange} />
+                                <textarea className="textarea" type="text" name="message" onChange={this.handleChange} placeholder="Your message .." />
                             </div>
                             <button className="btn" type="submit">Send</button>
                         </form>

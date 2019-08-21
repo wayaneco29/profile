@@ -1,6 +1,6 @@
 import React from 'react';
 
-import myself from '../../assests/images/myself.jpg';
+import myself from '../../assests/images/myself.webp';
 
 import './myself.styles.scss';
 
