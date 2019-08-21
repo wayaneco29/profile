@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    min-height: 150px;
+    padding: 40px 0;
+    background: #7e7a7a;
+
+    .container {
+        
+        .footer-inner {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+
+            .container-link {
+                width: 48%;
+                height: 100%
+            }
+        }
+    }
+}
