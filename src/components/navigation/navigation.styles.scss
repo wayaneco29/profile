@@ -100,6 +100,7 @@
                 height: 55px;
                 background: #7e7a7a;
                 right: 0;
+                overflow: hidden;
                 cursor: pointer;
 
                 .bar {
@@ -108,21 +109,46 @@
                     background: #eee;
                     position: absolute;
                     left: 2px;
+                    transition: left 300ms ease-in-out, 
+                                transform 300ms ease-in-out;
 
-                    &:first-child {
-                        top: 13px;
+                    &.line {
+                        &:first-child {
+                            top: 13px;
+                        }
+                        &:nth-child(2) {
+                            width: 17px;
+                            top: 25px;
+                        }
+                        &:nth-child(3) {
+                            width: 18px;
+                            left: 19px;
+                            top: 25px;
+                        }
+                        &:last-child {
+                            top: 37px;
+                        }
                     }
-                    &:nth-child(2) {
-                        width: 17px;
-                        top: 25px;
-                    }
-                    &:nth-child(3) {
-                        width: 18px;
-                        left: 19px;
-                        top: 25px;
-                    }
-                    &:last-child {
-                        top: 37px;
+
+                    &.cross {
+                        &:first-child {
+                            top: 48%;
+                            transform: rotate(45deg);
+                        }
+                        &:nth-child(2) {
+                            width: 17px;
+                            top: 25px;
+                            left: -17px;
+                        }
+                        &:nth-child(3) {
+                            width: 18px;
+                            left: 39px;
+                            top: 25px;
+                        }
+                        &:last-child {
+                            top: 48%;
+                            transform: rotate(-45deg);
+                        }
                     }
                 }
             }
@@ -173,6 +199,7 @@
                 height: 55px;
                 background: #7e7a7a;
                 right: 0;
+                overflow: hidden;
                 cursor: pointer;
 
                 .bar {
@@ -181,21 +208,46 @@
                     background: #eee;
                     position: absolute;
                     left: 2px;
+                    transition: left 300ms ease-in-out, 
+                                transform 300ms ease-in-out;
 
-                    &:first-child {
-                        top: 13px;
+                    &.line {
+                        &:first-child {
+                            top: 13px;
+                        }
+                        &:nth-child(2) {
+                            width: 17px;
+                            top: 25px;
+                        }
+                        &:nth-child(3) {
+                            width: 18px;
+                            left: 19px;
+                            top: 25px;
+                        }
+                        &:last-child {
+                            top: 37px;
+                        }
                     }
-                    &:nth-child(2) {
-                        width: 17px;
-                        top: 25px;
-                    }
-                    &:nth-child(3) {
-                        width: 18px;
-                        left: 19px;
-                        top: 25px;
-                    }
-                    &:last-child {
-                        top: 37px;
+
+                    &.cross {
+                        &:first-child {
+                            top: 48%;
+                            transform: rotate(45deg);
+                        }
+                        &:nth-child(2) {
+                            width: 17px;
+                            top: 25px;
+                            left: -17px;
+                        }
+                        &:nth-child(3) {
+                            width: 18px;
+                            left: 42px;
+                            top: 25px;
+                        }
+                        &:last-child {
+                            top: 48%;
+                            transform: rotate(-45deg);
+                        }
                     }
                 }
             }

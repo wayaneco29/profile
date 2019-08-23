@@ -15,10 +15,10 @@ const MySelf = () => (
                     </div>
                     <div className="myself-description">
                         <p className="description-subtext">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit neque magni cupiditate, laborum voluptates officiis dolorum consectetur temporibus dolores corporis illum sit cum sint deserunt delectus eveniet ipsum voluptate nemo!
+                            My name is Wayan Danyael Eco. Seeking a job oppurtunity of Front-end Web Developer. And having specialization in creating dynamic and beautiful web pages. I have been no experience yet of this job but my internship does. I've been a Fron-end Web developer at CodeChiq company --start up company which is closed by now.
                     </p>
                         <p className="description-subtext">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis neque id, culpa possimus non ratione voluptas quia assumenda quisquam commodi? Perferendis hic quidem ducimus sit impedit odit placeat reprehenderit, exercitationem aliquid dolorum nesciunt tempora natus qui doloremque voluptas porro vel voluptatem facere quos numquam. Molestiae itaque eaque ipsa esse eligendi?
+                            Im a person the is dedicated in this path. Since that internship i've been amaze in web developer world. I been attended several meet ups like GDG CEBU held in Manduae, Cebu. Being a web developer gives me self confedence. Its because not all people can code and build websites on its own effort. I dont know why i feel incomplete when i didnt finish making websites thats why even holidays always coding and i like it . The more I do it the more I enjoys and for me it becomes my hubby. Thats all :-D
                     </p>
                     </div>
                 </div>

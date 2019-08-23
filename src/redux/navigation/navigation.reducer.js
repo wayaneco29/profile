@@ -20,6 +20,11 @@ const navigationReducer = (state = INITIAL_STATE, action) => {
                 ...state,
                 isToggled: !state.isToggled
             }
+        case 'HIDE_TOGGLE_NAV':
+            return {
+                ...state,
+                isToggled: false
+            }
         default:
             return state
     }

@@ -17,6 +17,7 @@ class Contact extends React.Component {
     handleChange = (e) => {
         e.persist()
 
+
         const { name, value } = e.target;
         this.setState({ [name]: value })
     }
@@ -34,7 +35,7 @@ class Contact extends React.Component {
                             </div>
                             <div className="form-group">
                                 <label>Message</label>
-                                <textarea className="textarea" type="text" name="message" onChange={this.handleChange} placeholder="Your message .." />
+                                <textarea className="textarea" type="text" name="message" onChange={this.handleChange} value={this.state.message} placeholder="Your message .." />
                             </div>
                             <button className="btn" type="submit">Send</button>
                         </form>

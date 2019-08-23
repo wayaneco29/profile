@@ -18,6 +18,7 @@ const Homepage = ({ isHidden }) => (
         <Projects />
         <Contact />
         <Footer />
+
     </div>
 )
 
