@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60573599931b1fc20b2acc760b2979e2",
+    "revision": "d075980e4b39c7438087fa51bec2d55e",
     "url": "/profile/index.html"
   },
   {
-    "revision": "fea268d9cd86238ceb2d",
-    "url": "/profile/static/css/main.581e762b.chunk.css"
+    "revision": "71da9f1773430843bb31",
+    "url": "/profile/static/css/main.c02c7aea.chunk.css"
   },
   {
-    "revision": "b820a4390ccec5f4ca95",
-    "url": "/profile/static/js/2.4cfe998c.chunk.js"
+    "revision": "1ad48089551be200df7b",
+    "url": "/profile/static/js/2.53e0f37b.chunk.js"
   },
   {
-    "revision": "fea268d9cd86238ceb2d",
-    "url": "/profile/static/js/main.c2dc3818.chunk.js"
+    "revision": "71da9f1773430843bb31",
+    "url": "/profile/static/js/main.0f5057ae.chunk.js"
   },
   {
     "revision": "ee22a681af368eaf4430",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac72817382706c7dc6eb84a602f0585f",
     "url": "/profile/static/media/myself.ac728173.webp"
+  },
+  {
+    "revision": "c5ecc94ca703ee6f3acf2a1466e8889f",
+    "url": "/profile/static/media/the-college-of-maasin.c5ecc94c.webp"
   }
 ]);
