@@ -17,7 +17,9 @@ const Navigation = ({ toggleNav, toggleNavList, toggledNav, hideToggleNav }) => 
                     smooth={true}
                     duration={1000}
                     className="logo"
-                    onClick={hideToggleNav}>LOGO</Link>
+                    onClick={hideToggleNav}>
+                    <div className="name">W<span>ayan</span><p>ECO</p></div>
+                </Link>
             </div>
 
             <ul className={`${toggleNavList ? 'show' : 'hide'} navbar`}>
