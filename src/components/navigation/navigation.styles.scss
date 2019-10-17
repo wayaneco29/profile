@@ -26,6 +26,36 @@
             line-height: 55px;
             font-size: 25px;
             cursor: pointer;
+
+            .name {
+                font-weight: bold;
+                line-height: 55px;
+                height: 55px;
+                position: relative;
+
+                span {
+                    font-size: 13px;
+                    letter-spacing: 4px;
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        width: 95%;
+                        height: 2px;
+                        background: #eee;
+                        top: 3px;
+                        left: 0px;
+                    }
+                }
+                p {
+                    position: absolute;
+                    top: -6px;
+                    letter-spacing: 9px;
+                    font-size: 9px;
+                    left: 30px;
+                }
+            }
         }
         
         .navbar {
@@ -40,10 +70,12 @@
 
                 &.active {
                     background: #726f6f;
+                    border-bottom: 1px solid #eee;
                   }
 
                 &:hover {
                     background: #726f6f;
+                    border-bottom: 1px solid #eee;
                 }
             }
         }
@@ -265,7 +297,7 @@
             .logo-container {
 
                 .logo {
-                    font-size: 20px;
+                    // font-size: 20px;
                 }
             }
 
