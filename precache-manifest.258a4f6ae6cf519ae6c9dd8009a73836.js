@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d57238b594b7c3e35f831854b1d65875",
+    "revision": "947a472afbbab0f02062c6036a88b288",
     "url": "/profile/index.html"
   },
   {
-    "revision": "53ab5fcc3c83aff50d17",
-    "url": "/profile/static/css/main.c02c7aea.chunk.css"
+    "revision": "aa98b58c3caf271a9596",
+    "url": "/profile/static/css/main.6a911d82.chunk.css"
   },
   {
-    "revision": "6f09e674870fe274f3d9",
-    "url": "/profile/static/js/2.6a2789fd.chunk.js"
+    "revision": "5d7b5083d0370e08b0c5",
+    "url": "/profile/static/js/2.bbe79c0b.chunk.js"
   },
   {
-    "revision": "53ab5fcc3c83aff50d17",
-    "url": "/profile/static/js/main.40536eac.chunk.js"
+    "revision": "aa98b58c3caf271a9596",
+    "url": "/profile/static/js/main.d5eb3e13.chunk.js"
   },
   {
     "revision": "ee22a681af368eaf4430",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/profile/static/media/banner.999d4a1b.webp"
   },
   {
-    "revision": "32f43ced475cdac210ae4b174a32ab53",
-    "url": "/profile/static/media/lizashop.32f43ced.webp"
+    "revision": "d872896fee51888fa62fdac9b9af53f5",
+    "url": "/profile/static/media/contact-app.d872896f.webp"
   },
   {
     "revision": "ac72817382706c7dc6eb84a602f0585f",
