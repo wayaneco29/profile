@@ -39,6 +39,7 @@ class Contact extends React.Component {
                             </div>
                             <button className="btn" type="submit">Send</button>
                         </form>
+                        <p className="note"><strong>Note:</strong> No backend yet. This from will never works. For design only.</p>
                     </div>
                 </div>
             </div>

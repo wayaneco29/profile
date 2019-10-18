@@ -59,3 +59,15 @@
         }
     }
 }
+
+@media (min-width: 481px) and (max-width: 650px) {
+    .skill-groups {
+        flex-direction: column;
+        padding: 0px !important;
+
+        .skill {
+            padding: 20px 50px !important;
+        }
+    }
+
+}

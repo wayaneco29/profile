@@ -43,7 +43,7 @@
             position: absolute;
             opacity: 0;
             transition: opacity 340ms ease;
-            bottom: 50px;
+            bottom: 25px;
             display: none;
             color: #eee;
             left: 50%;
@@ -127,12 +127,11 @@
   }
 }
 
-@media (min-width: 601px) and (max-width: 630px) {
+@media (min-width: 601px) and (max-width: 1030px) {
   .projects {
     .projects-inner {
       .project-groups {
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
         padding: 0px;
 
